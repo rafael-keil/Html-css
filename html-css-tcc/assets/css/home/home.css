@@ -1,0 +1,243 @@
+.banner {
+    position: relative;
+    width: 100%;
+}
+
+.banner-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-txt {
+    color: white;
+    font-size: 18px;
+}
+
+.about-home {
+    min-height: 690px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 180px;
+    margin: 60px auto;
+}
+
+.about-txt {
+    margin: 39px auto 25px;
+}
+
+.services-home {
+    position: relative;
+    width: 100%;
+}
+
+.txt-services {
+    width: 500px;
+}
+
+.depoimentos {
+    min-height: 690px;
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dep-geral {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-dep {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px
+}
+
+.dep-msg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    max-width: 50%;
+    box-shadow: 0px 4px 34px rgba(8, 53, 120, 0.05);
+    border-radius: 3px;
+    padding: 20px;
+}
+
+.pessoa {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.pessoa-txt {
+    display: flex;
+    flex-direction: column;
+}
+
+.nome-dep {
+    color: #515070;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.data-dep {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FF8E6E;
+}
+
+.msg {
+    margin-right: 45px;
+}
+
+.func {
+    background: linear-gradient(105.92deg, #515070 -8.44%, #6B69B0 94.86%);
+    min-height: 680px;
+    width: 100%;
+}
+
+.func-geral {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding-top: 60px;
+}
+
+.func-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    gap: 100px;
+}
+
+.func-block {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    justify-content: center;
+}
+
+.func-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.fale {
+    background: #F6F6F6;
+    min-height: 680px;
+    width: 100%;
+}
+
+.fale-geral {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 680px;
+    gap: 130px
+}
+
+.fale-geral p {
+    margin: 39px 90px 25px 0;
+}
+
+@media (max-width: 875px) {
+
+    #smaller {
+        font-size: 32px;
+    }
+
+    .banner-title {
+        font-size: 38px;
+    }
+
+    .button-banner{
+        background-color: #515070;
+    }
+
+    .about-home {
+        flex-direction: column-reverse;
+        gap: 60px;
+    }
+
+    .about-txt {
+        margin-top: 59px;
+    }
+
+    .txt-services {
+        width: 330px;
+    }
+
+    .dep-geral {
+        margin-top: 70px;
+        align-items: center;
+    }
+
+    .container-dep {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dep-msg {
+        max-width: 100%;
+    }
+
+    .pessoa {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nome-dep {
+        font-style: italic;
+        font-weight: 500;
+    }
+
+    .data-dep, .nome-dep {
+        font-family: Exo 2;
+    }
+
+    .msg, .data-dep,  .nome-dep{
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .depoimentos {
+        padding-bottom: 60px;
+    }
+
+    .func-content {
+        flex-direction: column;
+    }
+
+    .func-block {
+        margin: auto 20px;
+    }
+
+    .celular {
+        order: 5;
+    }
+
+    .fale-geral {
+        flex-direction: column;
+        gap: 85px;
+        padding: 55px 0;
+    }
+
+    .fale-geral p {
+        margin: 19px 30px 45px 0;
+    }
+}
